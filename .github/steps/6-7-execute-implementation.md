@@ -11,7 +11,7 @@ For the implementation phase, you should configure GitHub Copilot to use the Cla
 2. Select **Claude Sonnet 4.5** from the available models
 3. This model is ideal for implementation tasks, providing better code generation, reasoning, and handling of complex requirements
 
-Claude Sonnet 4.5 is more capable than Haiku 4.5 and will produce higher-quality code for the actual implementation phase.
+Claude Sonnet 4.5 provides superior capabilities for the implementation phase.
 
 ## Instructions
 

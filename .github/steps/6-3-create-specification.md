@@ -3,13 +3,13 @@
 ## Goal
 Use SpecKit to create a detailed specification for adding overdue task indicators to the todo application. This is where you define **what** you want to build before thinking about **how** to build it.
 
-## Using Claude Haiku 4.5
+## Using Claude Sonnet 4.5
 
-For faster performance during development, you can configure GitHub Copilot to use the Claude Haiku 4.5 model:
+For optimal performance during development, you can configure GitHub Copilot to use the Claude Sonnet 4.5 model:
 
 1. In GitHub Copilot chat, click the **Model selector** dropdown (usually showing the current model)
-2. Select **Claude Haiku 4.5** from the available models
-3. This model is lightweight and ideal for rapid iteration and spec-driven development workflows
+2. Select **Claude Sonnet 4.5** from the available models
+3. This model provides superior reasoning and code generation capabilities, ideal for spec-driven development workflows
 
 You can switch back to the default model at any time using the same dropdown.
 
@@ -18,7 +18,7 @@ You can switch back to the default model at any time using the same dropdown.
 ### :keyboard: Activity: Create a specification using SpecKit
 
 1. Open the **Copilot** chat panel and switch to **Agent** mode using the dropdown menu.
-2. Select **Claude Haiku 4.5** from the **Model selector** dropdown for faster iteration.
+2. Select **Claude Sonnet 4.5** from the **Model selector** dropdown for optimal performance.
 3. Start a **new chat** to ensure clean context for this feature.
 4. In the Copilot chat input field, use the SpecKit slash command:
    ```
