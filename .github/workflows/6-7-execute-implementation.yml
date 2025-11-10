@@ -10,6 +10,7 @@ permissions:
   contents: read
   actions: write
   issues: write
+  id-token: write
 
 jobs:
   find_exercise:
@@ -133,3 +134,9 @@ jobs:
           gh workflow disable "Step 6-7"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  call-scoreboard-completion:
+    name: Call Scoreboard Completion
+    needs: [post_next_step_content]
+    if: success()
+    uses: ./.github/workflows/scoreboard-post-completion.yml
