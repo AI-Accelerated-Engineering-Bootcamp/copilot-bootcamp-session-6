@@ -135,6 +135,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  # Note: This workflow call is commented out until the bootcamp-scoreboard app is ready for more cohorts
   # call-scoreboard-completion:
   #   name: Call Scoreboard Completion
   #   needs: [post_next_step_content]
